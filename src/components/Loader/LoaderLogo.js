@@ -11,7 +11,7 @@ class LogoLoader extends React.Component {
         height="40%"
         viewBox="0 0 440 305"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns=""
       >
         <path
           class="myHexagon"
