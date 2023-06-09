@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Mohammed Alshaheri Portfolio",
     type: "website",
-    url: "",
+    url: "https://malshaheri.vercel.app/",
   },
 };
 
@@ -26,7 +26,7 @@ const greeting = {
     "I am eager to collaborate with clients and fellow developers to bring ideas to life and create meaningful digital experiences. By constantly pushing my boundaries and seeking new challenges, I am confident that my portfolio will grow over time, showcasing the progress I make on this exciting journey. Thank you for visiting my website and considering me for your web development needs. I look forward to the opportunity to work with you and create something extraordinary..",
   resumeLink:
     "https://drive.google.com/file/d/1b57diJYTr0sZ4hkqosEim1W2b7VzsWWK/view?usp=sharing",
-  portfolio_repository: "",
+  portfolio_repository: "https://github.com/malshaheri/malshaheri",
   githubProfile: "https://github.com/malshaheri",
 };
 
