@@ -8,8 +8,8 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_SITE_URL || "https://alshaheri-portfolio.vercel.app",
   github: "https://github.com/malshaheri",
   linkedin: "https://www.linkedin.com/in/alshaheri/",
-  resume:
-    "https://drive.google.com/file/d/1b57diJYTr0sZ4hkqosEim1W2b7VzsWWK/view?usp=sharing",
+  resumeDe: "/cv/Mohammed-Alshaheri-Lebenslauf-DE.pdf",
+  resumeEn: "/cv/Mohammed-Alshaheri-CV-EN.pdf",
   intro:
     "I build practical web and mobile applications that connect solid engineering with real business needs.",
   summary:

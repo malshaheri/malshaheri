@@ -58,7 +58,7 @@ export function LocalizedHome({ locale }: { locale: Locale }) {
 
               <a
                 className="button secondaryButton"
-                href={siteConfig.resume}
+                href={locale === "de" ? siteConfig.resumeDe : siteConfig.resumeEn}
                 target="_blank"
                 rel="noreferrer"
               >
