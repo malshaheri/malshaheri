@@ -1,52 +1,82 @@
-# Mohammed Alshaheri — Portfolio 2026
+﻿# Mohammed Alshaheri
 
-A clean rebuild of Mohammed Alshaheri's developer portfolio using modern Next.js, React and TypeScript.
+### Full-Stack Developer · Ludwigshafen am Rhein, Germany
 
-## Why this version exists
+I build practical web and mobile applications that connect modern software development with real business needs.
 
-The previous portfolio was originally built on Create React App and accumulated template code, outdated dependencies and old project data. This version starts from a small, maintainable codebase and focuses on current work.
+[🇩🇪 Portfolio auf Deutsch](https://malshaheri.vercel.app/de) · [🇬🇧 Portfolio in English](https://malshaheri.vercel.app/en) · [LinkedIn](https://www.linkedin.com/in/alshaheri/)
 
-## Stack
+---
 
-- Next.js 16
-- React 19
+## Portfolio 2026
+
+This repository contains the current version of my personal developer portfolio, rebuilt with a modern architecture, bilingual content, responsive design and dedicated project case studies.
+
+### Tech Stack
+
+- Next.js
+- React
 - TypeScript
-- App Router
-- Plain CSS (no UI framework dependency)
+- Responsive Web Design
+- Internationalization (DE / EN)
+- SEO & Open Graph
+- Vercel
+- Git & GitHub
 
-## Local development
+---
 
-```bash
-npm install
-npm run dev
-```
+## Featured Projects
 
-Open `http://localhost:3000`.
+### Abbod Delivery
 
-## Production check
+A real-world delivery management platform covering administration, driver workflows, order management, commissions and operational processes.
 
-```bash
-npm run typecheck
-npm run build
-```
+**Technologies:** React, React Native, Expo, NestJS, TypeScript, PostgreSQL, Prisma, Docker
 
-## Content editing
+[Case Study DE](https://malshaheri.vercel.app/de/projects/abbod-delivery) · [Case Study EN](https://malshaheri.vercel.app/en/projects/abbod-delivery)
 
-Most portfolio content lives in:
+### Automobile Picobello
 
-```text
-src/data/portfolio.ts
-```
+A live business website developed in 2024 for an automotive company in Speyer, Germany.
 
-Update that file to change social links, skills, projects, experience, education and languages.
+[Visit live website](https://automobile-picobello.de/)
 
-## Deployment
+### JAM — Language Learning
 
-This project is ready for Vercel. Set `NEXT_PUBLIC_SITE_URL` to the final production URL if it changes.
+Final team project at the Digital Career Institute, developed together with two other students. The application supports language learning through digital flashcards.
 
-## Before final launch
+[View repository](https://github.com/JoBeck1/Final-Project-JAM)
 
-- Replace the current CV link with the latest CV.
-- Confirm all dates and wording in Experience / Education.
-- Add real Abbod Delivery screenshots when ready.
-- Add German localization as a follow-up enhancement.
+---
+
+## Background
+
+My professional background combines software development with experience in operations management, human resources, business development and logistics.
+
+This experience influences how I approach software: understand the real workflow first, then build clear and practical solutions around it.
+
+---
+
+## Languages
+
+- Arabic — Native
+- English — Professional
+- German — Intermediate
+
+---
+
+## Contact
+
+**Mohammed Alshaheri**
+
+Ludwigshafen am Rhein, Germany
+
+Email: malshaheri@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/alshaheri/
+
+Portfolio: https://malshaheri.vercel.app
+
+---
+
+Built with Next.js & TypeScript.
