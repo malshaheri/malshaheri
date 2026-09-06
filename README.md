@@ -1,10 +1,10 @@
-﻿# Mohammed Alshaheri
+# Mohammed Alshaheri
 
 ### Full-Stack Developer · Ludwigshafen am Rhein, Germany
 
 I build practical web and mobile applications that connect modern software development with real business needs.
 
-[🇩🇪 Portfolio auf Deutsch](https://malshaheri.vercel.app/de) · [🇬🇧 Portfolio in English](https://malshaheri.vercel.app/en) · [LinkedIn](https://www.linkedin.com/in/alshaheri/)
+[🇩🇪 Portfolio auf Deutsch](https://malshaheri.de/de) · [🇬🇧 Portfolio in English](https://malshaheri.de/en) · [LinkedIn](https://www.linkedin.com/in/alshaheri/)
 
 ---
 
@@ -33,7 +33,7 @@ A real-world delivery management platform covering administration, driver workfl
 
 **Technologies:** React, React Native, Expo, NestJS, TypeScript, PostgreSQL, Prisma, Docker
 
-[Case Study DE](https://malshaheri.vercel.app/de/projects/abbod-delivery) · [Case Study EN](https://malshaheri.vercel.app/en/projects/abbod-delivery)
+[Case Study DE](https://malshaheri.de/de/projects/abbod-delivery) · [Case Study EN](https://malshaheri.de/en/projects/abbod-delivery)
 
 ### Automobile Picobello
 
@@ -75,7 +75,7 @@ Email: malshaheri@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/alshaheri/
 
-Portfolio: https://malshaheri.vercel.app
+Portfolio: https://malshaheri.de
 
 ---
 
