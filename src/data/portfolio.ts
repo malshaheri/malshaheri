@@ -5,7 +5,7 @@ export const siteConfig = {
   location: "Ludwigshafen am Rhein, Germany",
   email: "malshaheri@gmail.com",
   siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL || "https://alshaheri-portfolio.vercel.app",
+    process.env.NEXT_PUBLIC_SITE_URL || "https://malshaheri.de",
   github: "https://github.com/malshaheri",
   linkedin: "https://www.linkedin.com/in/alshaheri/",
   resumeDe: "/cv/Mohammed-Alshaheri-Lebenslauf-DE.pdf",
