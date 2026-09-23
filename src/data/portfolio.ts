@@ -58,9 +58,9 @@ export const projects = [
     name: "JAM — Language Learning",
     description:
       "A DCI final team project developed with two other students to support language learning through digital flashcards and collaborative software development.",
-    href: "https://github.com/JoBeck1/Final-Project-JAM",
-    stack: ["Team Project", "Language Learning", "Flashcards"],
-    year: "2023",
+    href: "https://jam-dci-deployment.vercel.app/",
+    stack: ["React", "Express", "MongoDB", "Team Project"],
+    year: "2022",
     badge: "TEAM PROJECT",
   },
   {
