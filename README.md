@@ -2,58 +2,61 @@
 
 ### Full-Stack Developer · Ludwigshafen am Rhein, Germany
 
-I build practical web and mobile applications that connect modern software development with real business needs.
+I build practical web and mobile applications around real business workflows — from responsive frontend experiences to APIs, databases, admin dashboards and mobile apps.
 
 [🇩🇪 Portfolio auf Deutsch](https://malshaheri.de/de) · [🇬🇧 Portfolio in English](https://malshaheri.de/en) · [LinkedIn](https://www.linkedin.com/in/alshaheri/)
 
 ---
 
-## Portfolio 2026
+## Tech Stack
 
-This repository contains the current version of my personal developer portfolio, rebuilt with a modern architecture, bilingual content, responsive design and dedicated project case studies.
+**Frontend**
+- React · Next.js · TypeScript · JavaScript
+- HTML5 · CSS3 · Responsive Web Design
 
-### Tech Stack
+**Backend & Data**
+- Node.js · NestJS · Express
+- PostgreSQL · Prisma · MongoDB / Mongoose
+- REST APIs
 
-- Next.js
-- React
-- TypeScript
-- Responsive Web Design
-- Internationalization (DE / EN)
-- SEO & Open Graph
-- Vercel
-- Git & GitHub
+**Mobile & Tools**
+- React Native · Expo
+- Docker · Git · GitHub · Vercel
+- SEO · Internationalization (DE / EN)
 
 ---
 
-## Featured Projects
+## Selected Projects
 
 ### Abbod Delivery
 
-A real-world delivery management platform covering administration, driver workflows, order management, commissions and operational processes.
+A full-stack delivery management platform designed around real operational workflows, including order management, driver workflows, administration, commissions, GPS tracking and offline synchronization.
 
-**Technologies:** React, React Native, Expo, NestJS, TypeScript, PostgreSQL, Prisma, Docker
+**Stack:** Next.js · React Native · Expo · NestJS · TypeScript · PostgreSQL · Prisma · Docker
 
 [Case Study DE](https://malshaheri.de/de/projects/abbod-delivery) · [Case Study EN](https://malshaheri.de/en/projects/abbod-delivery)
 
 ### Automobile Picobello
 
-A live business website developed in 2024 for an automotive company in Speyer, Germany.
+A live business website built for an automotive company in Speyer, Germany, covering services, vehicle sales, trade-in, financing and customer contact.
 
-[Visit live website](https://automobile-picobello.de/)
+**Stack:** HTML5 · CSS3 · JavaScript · Responsive Web Design
+
+[Live Website](https://automobile-picobello.de/) · [Repository](https://github.com/malshaheri/automobile-picobello)
 
 ### JAM — Language Learning
 
-Final team project at the Digital Career Institute, developed together with two other students. The application supports language learning through digital flashcards.
+Final team project at the Digital Career Institute. The application supports language learning through digital flashcards and was developed collaboratively with two other students.
 
-[View repository](https://github.com/JoBeck1/Final-Project-JAM)
+[View Repository](https://github.com/JoBeck1/Final-Project-JAM)
 
 ---
 
-## Background
+## How I Work
 
-My professional background combines software development with experience in operations management, human resources, business development and logistics.
+My background combines software development with experience in operations, business development and logistics. I like to understand the real workflow first, then design a clear technical solution around it.
 
-This experience influences how I approach software: understand the real workflow first, then build clear and practical solutions around it.
+I am currently expanding my portfolio with modern React, Next.js and full-stack projects that demonstrate production-oriented development, reusable architecture and real-world use cases.
 
 ---
 
@@ -67,16 +70,9 @@ This experience influences how I approach software: understand the real workflow
 
 ## Contact
 
-**Mohammed Alshaheri**
-
+**Mohammed Alshaheri**  
 Ludwigshafen am Rhein, Germany
 
-Email: malshaheri@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/alshaheri/
-
+Email: malshaheri@gmail.com  
+LinkedIn: https://www.linkedin.com/in/alshaheri/  
 Portfolio: https://malshaheri.de
-
----
-
-Built with Next.js & TypeScript.
