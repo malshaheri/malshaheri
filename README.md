@@ -46,9 +46,11 @@ A live business website built for an automotive company in Speyer, Germany, cove
 
 ### JAM — Language Learning
 
-Final team project at the Digital Career Institute. The application supports language learning through digital flashcards and was developed collaboratively with two other students.
+Final team project at the Digital Career Institute, developed in 2022 with two other students. The full-stack application supports language learning through digital flashcards.
 
-[View Repository](https://github.com/JoBeck1/Final-Project-JAM)
+**Stack:** React · Node.js · Express · MongoDB · Mongoose · JWT
+
+[Live Demo](https://jam-dci-deployment.vercel.app/) · [Team Repository](https://github.com/JoBeck1/Final-Project-JAM)
 
 ---
 
