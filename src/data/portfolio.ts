@@ -4,8 +4,7 @@ export const siteConfig = {
   role: "Full-Stack Developer",
   location: "Ludwigshafen am Rhein, Germany",
   email: "malshaheri@gmail.com",
-  siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL || "https://malshaheri.de",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://malshaheri.de",
   github: "https://github.com/malshaheri",
   linkedin: "https://www.linkedin.com/in/alshaheri/",
   resumeDe: "/cv/Mohammed-Alshaheri-Lebenslauf-DE.pdf",
@@ -71,6 +70,15 @@ export const projects = [
     stack: ["Next.js", "TypeScript", "React", "i18n", "SEO"],
     year: "2026",
     badge: "CURRENT",
+  },
+  {
+    name: "Radaa Yemen Restaurant",
+    description:
+      "A modern bilingual restaurant website built with Next.js, React and TypeScript, featuring German and Arabic RTL content, a digital menu, responsive design and a reusable structure for future restaurant projects.",
+    href: "https://radaa-yemen-restaurant.vercel.app/",
+    stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "RTL"],
+    year: "2026",
+    badge: "LIVE DEMO",
   },
 ];
 export const skillGroups = [
