@@ -60,13 +60,6 @@ Final team project at the Digital Career Institute, developed in 2022 with two o
 
 [Live Demo](https://jam-dci-deployment.vercel.app/) · [Team Repository](https://github.com/JoBeck1/Final-Project-JAM)
 
-### Radaa Yemen Restaurant
-
-A modern bilingual restaurant website built as a polished portfolio demo and reusable foundation for future restaurant projects, featuring German and Arabic RTL content, a digital menu and responsive design.
-
-**Stack:** Next.js · React · TypeScript · Tailwind CSS · RTL
-
-[Live Demo](https://radaa-yemen-restaurant.vercel.app/) · [Repository](https://github.com/malshaheri/radaa-yemen-restaurant)
 ---
 
 ## How I Work
