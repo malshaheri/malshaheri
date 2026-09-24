@@ -109,6 +109,11 @@ export const localizedContent = {
         description:
           "Komplettes Redesign meines Entwickler-Portfolios mit Next.js, TypeScript, zweisprachigen Inhalten, responsivem Design und moderner Suchmaschinenoptimierung.",
       },
+      {
+        name: "Radaa Yemen Restaurant",
+        description:
+          "Eine moderne zweisprachige Restaurant-Website, entwickelt mit Next.js, React und TypeScript. Sie bietet deutsche und arabische Inhalte mit RTL-Unterstützung, eine digitale Speisekarte, responsives Design und eine wiederverwendbare Struktur für zukünftige Restaurantprojekte.",
+      },
     ],
     skillTitles: ["Frontend", "Backend", "Daten", "Werkzeuge"],
 
