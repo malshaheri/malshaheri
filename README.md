@@ -44,6 +44,14 @@ A live business website built for an automotive company in Speyer, Germany, cove
 
 [Live Website](https://automobile-picobello.de/) · [Repository](https://github.com/malshaheri/automobile-picobello)
 
+### Radaa Yemen Restaurant
+
+A modern bilingual restaurant website built as a polished portfolio demo and reusable foundation for future restaurant projects, featuring German and Arabic RTL content, a digital menu and responsive design.
+
+**Stack:** Next.js · React · TypeScript · Tailwind CSS · RTL
+
+[Live Demo](https://radaa-yemen-restaurant.vercel.app/) · [Repository](https://github.com/malshaheri/radaa-yemen-restaurant)
+
 ### JAM — Language Learning
 
 Final team project at the Digital Career Institute, developed in 2022 with two other students. The full-stack application supports language learning through digital flashcards.
