@@ -44,6 +44,14 @@ A live business website built for an automotive company in Speyer, Germany, cove
 
 [Live Website](https://automobile-picobello.de/) · [Repository](https://github.com/malshaheri/automobile-picobello)
 
+### ServiceFlow
+
+A modern service management dashboard for small service businesses, covering service requests, customers, scheduling, team management and company settings.
+
+**Stack:** React · TypeScript · Vite · React Router · TanStack Query · Zod
+
+[Repository](https://github.com/malshaheri/serviceflow)
+
 ### Radaa Yemen Restaurant
 
 A modern bilingual restaurant website built as a polished portfolio demo and reusable foundation for future restaurant projects, featuring German and Arabic RTL content, a digital menu and responsive design.
