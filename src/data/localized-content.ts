@@ -22,6 +22,11 @@ export const localizedContent = {
           "A live website built for a real automotive business in Speyer, presenting vehicle sales, trade-in, financing and contact information in a clear and responsive interface.",
       },
       {
+        name: "ServiceFlow",
+        description:
+          "A modern service management dashboard for small service businesses, covering customers, service requests, scheduling, team workflows, settings, validation and a query-based data layer.",
+      },
+      {
         name: "JAM — Language Learning",
         description:
           "A DCI final team project developed with two other students. The application supports language learning through digital flashcards and collaborative software development.",
@@ -98,6 +103,11 @@ export const localizedContent = {
         name: "Automobile Picobello",
         description:
           "Eine live geschaltete Website für ein reales Autohaus in Speyer mit Informationen zu Fahrzeugverkauf, Inzahlungnahme, Finanzierung und Kontaktmöglichkeiten.",
+      },
+      {
+        name: "ServiceFlow",
+        description:
+          "Ein modernes Service-Management-Dashboard für kleine Dienstleistungsbetriebe mit Kundenverwaltung, Serviceanfragen, Terminplanung, Teamverwaltung, Einstellungen, Validierung und einer Query-basierten Datenschicht.",
       },
       {
         name: "JAM — Language Learning",
