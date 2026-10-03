@@ -27,6 +27,11 @@ export const localizedContent = {
           "A modern service management dashboard for small service businesses, covering customers, service requests, scheduling, team workflows, settings, validation and a query-based data layer.",
       },
       {
+        name: "AutoShowroom",
+        description:
+          "A premium reusable automotive showroom demo with interactive 360° exterior views, an immersive Three.js interior panorama, bilingual content, vehicle details, test-drive requests and financing enquiries.",
+      },
+      {
         name: "JAM — Language Learning",
         description:
           "A DCI final team project developed with two other students. The application supports language learning through digital flashcards and collaborative software development.",
@@ -108,6 +113,11 @@ export const localizedContent = {
         name: "ServiceFlow",
         description:
           "Ein modernes Service-Management-Dashboard für kleine Dienstleistungsbetriebe mit Kundenverwaltung, Serviceanfragen, Terminplanung, Teamverwaltung, Einstellungen, Validierung und einer Query-basierten Datenschicht.",
+      },
+      {
+        name: "AutoShowroom",
+        description:
+          "Eine hochwertige, wiederverwendbare Autohaus-Demo mit interaktiver 360°-Außenansicht, immersivem Three.js-Innenraumpanorama, zweisprachigen Inhalten, Fahrzeugdetails sowie Anfragen für Probefahrten und Finanzierung.",
       },
       {
         name: "JAM — Language Learning",
