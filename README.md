@@ -50,7 +50,7 @@ A modern service management dashboard for small service businesses, covering ser
 
 **Stack:** React · TypeScript · Vite · React Router · TanStack Query · Zod
 
-[Repository](https://github.com/malshaheri/serviceflow)
+[Live Demo](https://serviceflow-sable.vercel.app/) · [Repository](https://github.com/malshaheri/serviceflow)
 
 ### Radaa Yemen Restaurant
 
