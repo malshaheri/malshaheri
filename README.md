@@ -28,6 +28,14 @@ I build practical web and mobile applications around real business workflows —
 
 ## Selected Projects
 
+### AutoShowroom
+
+A premium reusable automotive showroom demo featuring interactive 360° exterior views, an immersive Three.js interior panorama, bilingual German/English content, vehicle details, test-drive requests and financing enquiries.
+
+**Stack:** Next.js · React · TypeScript · Three.js · Tailwind CSS
+
+[Live Demo](https://autoshowroom-tan.vercel.app/de) · [Repository](https://github.com/malshaheri/autoshowroom)
+
 ### Abbod Delivery
 
 A full-stack delivery management platform designed around real operational workflows, including order management, driver workflows, administration, commissions, GPS tracking and offline synchronization.
