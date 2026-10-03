@@ -63,6 +63,15 @@ export const projects = [
     badge: "NEW",
   },
   {
+    name: "AutoShowroom",
+    description:
+      "A premium reusable automotive showroom demo with interactive 360° exterior views, an immersive Three.js interior panorama, bilingual content, vehicle details, test-drive requests and financing enquiries.",
+    href: "https://autoshowroom-tan.vercel.app/de",
+    stack: ["Next.js", "TypeScript", "React", "Three.js", "Tailwind CSS"],
+    year: "2026",
+    badge: "NEW",
+  },
+  {
     name: "JAM — Language Learning",
     description:
       "A DCI final team project developed with two other students to support language learning through digital flashcards and collaborative software development.",
