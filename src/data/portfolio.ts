@@ -57,7 +57,7 @@ export const projects = [
     name: "ServiceFlow",
     description:
       "A modern service management dashboard for small service businesses, with customer management, service requests, scheduling, team workflows, settings, validation and a query-based data layer.",
-    href: "https://github.com/malshaheri/serviceflow",
+    href: "https://serviceflow-sable.vercel.app/",
     stack: ["React", "TypeScript", "TanStack Query", "React Router", "Zod"],
     year: "2026",
     badge: "NEW",
