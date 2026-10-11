@@ -103,6 +103,7 @@ export const projects = [
     description:
       "A multilingual web application for German naturalization preparation, combining a guided questionnaire, personalized document tracking, optional secure account storage, AI-assisted document explanations and interview practice. Currently in private testing.",
     href: "https://einbuerungs-pilot-app.vercel.app/",
+    github: "https://github.com/malshaheri/einbuerungs-pilot-app",
     stack: ["Next.js", "TypeScript", "React", "Supabase", "AI", "i18n"],
     year: "2026",
     badge: "BETA",
