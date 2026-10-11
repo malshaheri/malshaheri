@@ -383,3 +383,33 @@ img { max-width: 100%; }
   background: color-mix(in srgb, var(--accent-strong) 10%, var(--surface));
   color: var(--text);
 }
+
+
+/* EinbürgerungsPilot featured project: illustrative, responsive product preview. */
+.citizenshipFeatured { margin-top: 30px; }
+.citizenshipMockup { align-self: center; overflow: hidden; border-radius: 22px; border: 1px solid #25364b; background: #0e1b2b; box-shadow: 0 26px 60px rgba(0,0,0,.22); }
+.citizenshipBrowser { display: flex; align-items: center; gap: 7px; padding: 13px 16px; background: #101827; color: #bed0df; }
+.citizenshipBrowser > span { height: 8px; width: 8px; border-radius: 50%; background: #60738b; }
+.citizenshipBrowser > span:first-child { background: #eb7674; }
+.citizenshipBrowser > span:nth-child(2) { background: #eac165; }
+.citizenshipBrowser > span:nth-child(3) { background: #72c8a6; }
+.citizenshipBrowser small { flex: 1; text-align: center; font-size: 11px; letter-spacing: .07em; }
+.citizenshipPreview { margin: 15px; background: #f5f8fb; color: #172b45; border-radius: 15px; padding: 22px; }
+.citizenshipPreviewHeader { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.citizenshipPreviewHeader small { margin-left: auto; color: #61738a; font-size: 10px; }
+.citizenshipLogo { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 9px; background: #f6c850; font-weight: 900; }
+.citizenshipPreview > p { margin: 28px 0 14px; font-size: 24px; line-height: 1.2; font-weight: 800; }
+.citizenshipProgress { height: 8px; border-radius: 20px; background: #dbe6f2; overflow: hidden; }
+.citizenshipProgress span { display: block; width: 64%; height: 100%; border-radius: inherit; background: #1288af; }
+.citizenshipStats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 20px 0; }
+.citizenshipStats > div { background: white; border: 1px solid #e1e8ef; border-radius: 12px; padding: 14px; display: grid; gap: 3px; }
+.citizenshipStats strong { font-size: 28px; line-height: 1; }
+.citizenshipStats small { color: #52677b; font-size: 11px; }
+.citizenshipPreviewRow { display: flex; align-items: center; gap: 12px; background: white; border: 1px solid #e1e8ef; border-radius: 12px; padding: 13px; margin-top: 9px; }
+.citizenshipPreviewRow > span { color: #107ba7; font-size: 22px; }
+.citizenshipPreviewRow > div { display: grid; gap: 2px; flex: 1; }
+.citizenshipPreviewRow strong { font-size: 12px; }
+.citizenshipPreviewRow small { font-size: 10px; color: #657c90; }
+.citizenshipPreviewRow b { color: #107ba7; }
+.citizenshipPreviewNote { margin-top: 16px; text-align: center; font-size: 10px; color: #657c90; }
+@media (max-width: 600px) { .citizenshipPreview { margin: 10px; padding: 16px; } .citizenshipPreview > p { font-size: 21px; } .citizenshipPreviewHeader small { display: none; } }
