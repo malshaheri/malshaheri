@@ -41,6 +41,16 @@ export const localizedContent = {
         description:
           "A complete redesign of my developer portfolio using Next.js, TypeScript, bilingual content, responsive design and modern SEO practices.",
       },
+      {
+        name: "Radaa Yemen Restaurant",
+        description:
+          "A modern bilingual restaurant website featuring German and Arabic RTL content, a digital menu and a responsive, reusable Next.js design.",
+      },
+      {
+        name: "EinbürgerungsPilot",
+        description:
+          "A multilingual German naturalization preparation app with guided questions, document tracking, optional account storage, AI-assisted document explanations and interview practice. Currently in private testing.",
+      },
     ],
     skillTitles: ["Frontend", "Backend", "Data", "Tools"],
 
@@ -133,6 +143,11 @@ export const localizedContent = {
         name: "Radaa Yemen Restaurant",
         description:
           "Eine moderne zweisprachige Restaurant-Website, entwickelt mit Next.js, React und TypeScript. Sie bietet deutsche und arabische Inhalte mit RTL-Unterstützung, eine digitale Speisekarte, responsives Design und eine wiederverwendbare Struktur für zukünftige Restaurantprojekte.",
+      },
+      {
+        name: "EinbürgerungsPilot",
+        description:
+          "Eine mehrsprachige Webanwendung zur Vorbereitung auf die Einbürgerung mit Frageassistent, persönlicher Dokumentenübersicht, optionaler Kontospeicherung, KI-gestützter Dokumentenerklärung und Interviewtraining. Derzeit in privater Testphase.",
       },
     ],
     skillTitles: ["Frontend", "Backend", "Daten", "Werkzeuge"],
