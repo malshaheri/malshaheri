@@ -28,6 +28,17 @@ I build practical web and mobile applications around real business workflows —
 
 ## Selected Projects
 
+### EinbürgerungsPilot — German Citizenship Assistant
+
+A multilingual, mobile-friendly web application helping people prepare for German naturalization. It combines a personalized onboarding wizard, document checklists, city-specific guidance and progress tracking with AI-assisted document explanations and interview practice. Includes optional document uploads, user accounts and guest access.
+
+**Stack:** Next.js 16 · React 19 · TypeScript · Tailwind CSS · Supabase · Gemini AI · PWA
+
+**Languages:** Arabic (RTL) · German · English · Turkish  
+**Status:** In active development · Preparing for beta testing
+
+[Live App](https://einbuerungs-pilot-app.vercel.app/) · [Repository](https://github.com/malshaheri/einbuerungs-pilot-app)
+
 ### AutoShowroom
 
 A premium reusable automotive showroom demo featuring interactive 360° exterior views, an immersive Three.js interior panorama, bilingual German/English content, vehicle details, test-drive requests and financing enquiries.
