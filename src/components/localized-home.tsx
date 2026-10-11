@@ -323,7 +323,7 @@ export function LocalizedHome({ locale }: { locale: Locale }) {
                     <span key={item}>{item}</span>
                   ))}
                 </div>
-                {"github" in project && project.github ? (
+                {"github" in project && typeof project.github === "string" ? (
                   <a className="textLink mutedLink" href={project.github} target="_blank" rel="noreferrer" aria-label={`${project.name} GitHub source code`}>
                     GitHub <GithubIcon />
                   </a>
