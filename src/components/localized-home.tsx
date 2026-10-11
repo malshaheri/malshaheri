@@ -245,6 +245,56 @@ export function LocalizedHome({ locale }: { locale: Locale }) {
             </div>
           </article>
 
+          <article className="featuredProject citizenshipFeatured">
+            <div className="featuredCopy">
+              <p className="projectEyebrow">{locale === "de" ? "Ausgewähltes Projekt · 2026" : "Selected project · 2026"}</p>
+              <div className="projectTitleRow">
+                <h3>EinbürgerungsPilot</h3>
+                <span className="statusBadge"><span /> {locale === "de" ? "Private Testphase" : "Private beta"}</span>
+              </div>
+              <p className="projectLead">
+                {locale === "de"
+                  ? "Ein mehrsprachiger Begleiter für den Weg zur deutschen Einbürgerung: persönliche Fragen, nachvollziehbare Dokumentenlisten und hilfreiche Vorbereitung auf das Behördenverfahren."
+                  : "A multilingual companion for the German naturalization journey, combining guided questions, personal document checklists and practical preparation for administrative steps."}
+              </p>
+              <ul className="featureList">
+                {(locale === "de"
+                  ? ["Personalisierter Frageassistent und Dokumentenstatus", "Optionale Anmeldung und geschützter Dokumentenspeicher", "KI-gestützte Dokumentenerklärung mit klaren Hinweisen", "Interviewtraining und lokalisierte Behördeninformationen"]
+                  : ["Guided questionnaire and personalized document tracking", "Optional sign-in and private document storage", "AI-assisted document explanations with safeguards", "Interview practice and local authority guidance"]
+                ).map((item) => <li key={item}>{item}</li>)}
+              </ul>
+              <div className="tagList">
+                {["Next.js", "React", "TypeScript", "Supabase", "AI", "i18n"].map((item) => <span key={item}>{item}</span>)}
+              </div>
+              <div className="projectActions">
+                <Link className="textLink" href={`/${locale}/projects/einbuergerungs-pilot`}>
+                  {t.work.caseStudy} <ArrowUpRight />
+                </Link>
+                <a className="textLink mutedLink" href="https://einbuerungs-pilot-app.vercel.app/" target="_blank" rel="noreferrer">
+                  {locale === "de" ? "Live-Demo" : "Live preview"} <ArrowUpRight />
+                </a>
+                <a className="textLink mutedLink" href="https://github.com/malshaheri/einbuerungs-pilot-app" target="_blank" rel="noreferrer">
+                  GitHub <GithubIcon />
+                </a>
+              </div>
+            </div>
+            <div className="citizenshipMockup" aria-label="Illustrative EinbürgerungsPilot dashboard preview">
+              <div className="citizenshipBrowser"><span/><span/><span/><small>EinbürgerungsPilot</small></div>
+              <div className="citizenshipPreview">
+                <div className="citizenshipPreviewHeader"><span className="citizenshipLogo">✓</span><strong>EinbürgerungsPilot</strong><small>DE · AR · EN · TR</small></div>
+                <p>{locale === "de" ? "Dein Weg zur Einbürgerung" : "Your naturalization journey"}</p>
+                <div className="citizenshipProgress"><span/></div>
+                <div className="citizenshipStats">
+                  <div><strong>06</strong><small>{locale === "de" ? "Profilbereiche" : "Profile sections"}</small></div>
+                  <div><strong>04</strong><small>{locale === "de" ? "Sprachen" : "Languages"}</small></div>
+                </div>
+                <div className="citizenshipPreviewRow"><span>▣</span><div><strong>{locale === "de" ? "Meine Unterlagen" : "My documents"}</strong><small>{locale === "de" ? "Individuelle Checkliste" : "Personalized checklist"}</small></div><b>↗</b></div>
+                <div className="citizenshipPreviewRow"><span>✦</span><div><strong>{locale === "de" ? "Dokumente verstehen" : "Understand documents"}</strong><small>{locale === "de" ? "KI-gestützte Erklärungen" : "AI-assisted explanations"}</small></div><b>↗</b></div>
+                <div className="citizenshipPreviewNote">{locale === "de" ? "Illustrative Vorschau · Testphase" : "Illustrative preview · Private beta"}</div>
+              </div>
+            </div>
+          </article>
+
           <div className="projectGrid">
             {projects.map((project, index) => (
               <article className="projectCard" key={project.name}>
