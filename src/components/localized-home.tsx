@@ -23,6 +23,7 @@ import {
 } from "@/data/portfolio";
 import { Locale, translations } from "@/data/translations";
 import { localizedContent } from "@/data/localized-content";
+import { skillLinks, skillIconUrl } from "@/data/skill-links";
 
 const skillIcons = [CodeIcon, LayersIcon, DatabaseIcon, TerminalIcon];
 
@@ -354,10 +355,33 @@ export function LocalizedHome({ locale }: { locale: Locale }) {
 
                   <h3>{lc.skillTitles[index] ?? group.title}</h3>
 
-                  <div className="skillItems">
-                    {group.skills.map((skill) => (
-                      <span key={skill}>{skill}</span>
-                    ))}
+                  <div className="skillLogoGrid">
+                    {group.skills.map((skill) => {
+                      const info = skillLinks[skill];
+                      const icon = skillIconUrl(skill);
+                      return (
+                        <a
+                          key={skill}
+                          className="skillLogoLink"
+                          href={info?.url ?? "#skills"}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${skill} — ${locale === "de" ? "offizielle Website oder Dokumentation" : "official website or documentation"}`}
+                          title={skill}
+                        >
+                          <span className="skillLogoVisual" aria-hidden="true">
+                            {icon ? (
+                              // SVG brand mark, supplied by Devicon.
+                              // eslint-disable-next-line @next/next/no-img-element
+                              <img src={icon} alt="" loading="lazy" width="40" height="40" />
+                            ) : (
+                              <span className="skillLogoMonogram">{info?.mark ?? "•"}</span>
+                            )}
+                          </span>
+                          <span className="skillLogoLabel">{skill}</span>
+                        </a>
+                      );
+                    })}
                   </div>
                 </article>
               );
