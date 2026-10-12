@@ -102,15 +102,15 @@ export const projects = [
 export const skillGroups = [
   {
     title: "Frontend",
-    skills: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS"],
+    skills: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
   },
   {
     title: "Backend",
-    skills: ["Node.js", "NestJS", "REST APIs", "Authentication", "API design"],
+    skills: ["Node.js", "NestJS", "OpenAI API", "REST APIs", "Authentication", "API design"],
   },
   {
     title: "Data",
-    skills: ["PostgreSQL", "MongoDB", "Prisma", "Relational modeling"],
+    skills: ["PostgreSQL", "MongoDB", "Prisma", "Supabase", "Relational modeling"],
   },
   {
     title: "Tools",
